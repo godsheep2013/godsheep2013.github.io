@@ -1,5 +1,6 @@
     var is_ok = false;
     var config = location.href.toString().split('#')[1];
+    console.log("config",config);
     var err_postfix = '此頁網址格式應為\n'+
                       'http://grassboy.github.io/lotteryButton/index.html?[firebase 主機資訊]';
     var guagua_src = {
