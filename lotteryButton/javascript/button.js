@@ -40,7 +40,7 @@
             response: 'auth/gua_result/'
         };
 
-        firebase.initializeApp(firebase_conf.server);
+        var firebase = initializeApp(firebase_conf.server);
         var myFirebaseRef = firebase.database();
         var authCallback = function (error, authData) {
             if(error == -1) {
