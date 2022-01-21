@@ -1,8 +1,8 @@
 ﻿var info = {
-	act_name: "中華電信110年年終感恩線上摸彩活動",
-	output_filename: "cht_result0110.csv",
+	act_name: "年終感恩線上摸彩活動",
+	output_filename: "result.csv",
 	can_back_if_not_appear: true,
-	restore_key: "CHT110年終摸彩活動0110"
+	restore_key: "年終摸彩活動"
 }
 
 var msg_conf = {
@@ -10,7 +10,7 @@ var msg_conf = {
 	admin_sn: "864446",
 	user_id: "",
 	password: "",
-	post_text: "領獎時間及地點請依行政暨資產發展處E-mail通知，感謝您的配合。祝您虎虎生風虎年行大運",
+	post_text: "領獎時間及地點請依E-mail通知，感謝您的配合。祝您虎虎生風虎年行大運",
 	url: "http://localhost:24680/javascript/msg.cht.js"
 }
 
